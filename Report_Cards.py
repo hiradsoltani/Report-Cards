@@ -80,4 +80,3 @@ for student in range(1,marks["student_id"].nunique()+1):
 # Writing the desired output file in JSON format
 with open(output, 'w') as outfile:
     json.dump(df, outfile,indent = 4)
-#print(df)
